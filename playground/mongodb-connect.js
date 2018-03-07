@@ -17,9 +17,9 @@ console.log('Connected to MongoDB Server');
 //     console.log(JSON.stringify(result.ops,undefined,2));
 // });
 db.collection('Users').insertOne({
-    name:'abc',  
+    name:'eee',  
      age:20,
-     location:'abc',  
+     location:'eee',  
     Completed:false     
  }, (err,result) => {
     if (err)
